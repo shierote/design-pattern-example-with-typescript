@@ -4,7 +4,12 @@
   "author": "shierote <taishi2060@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "iterator": "ts-node src/iterator/main.ts",
+    "template_method": "ts-node src/template_method/main.ts",
+    "factory_method": "ts-node src/factory_method/idcard.ts",
+    "singleton": "ts-node src/singleton/main.ts",
+    "observer": "ts-node src/observer/number_generator.ts"
   },
   "dependencies": {
     "@types/node": "^16.11.1",
